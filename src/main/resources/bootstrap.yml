@@ -1,0 +1,11 @@
+spring:
+  application:
+    name: webapp
+  cloud:
+    consul:
+      host: 172.19.0.2
+      port: 8500
+      config:
+        enabled: false
+      discovery:
+        enabled: true
