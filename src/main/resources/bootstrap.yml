@@ -1,6 +1,6 @@
 spring:
   application:
-    name: webapp
+    name: db-service
   cloud:
     consul:
       host: 172.19.0.2
