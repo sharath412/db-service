@@ -3,9 +3,10 @@ spring:
     name: db-service
   cloud:
     consul:
-      host: 172.19.0.2
+      host: localhost
       port: 8500
       config:
         enabled: false
       discovery:
         enabled: true
+        prefer-ip-address: true
